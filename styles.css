@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+#photo-heading{
+	text-align:center;
+	color:white;
+}
+#animal-photos{
+	background:threedshadow;
+}
+.animals{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width:60%;
+	align-items:center;
+	background:grey;
+	justify-content:center;
+	gap:10px;
+	padding:20px
+}
+.animals img{
+	height:100px;
+	width:100px;
+	border-radius:20px
+	
+}
+#animal-photos{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+}
